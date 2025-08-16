@@ -18,5 +18,6 @@ But then i did hit and trial and came ton know that till 25 coloumns it shows fu
 SO what I did I made it into a loop of 21 by using for loop on interval of 21 bcz 21X4=84 ie given number of columns and it worked in first try!!!
 now it showed the whole data
 Now the next task was to get altitide from the pressure data 
+I learnt basic division in excel and directly applied division by 12.3 in excel
 
 
