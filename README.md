@@ -19,6 +19,18 @@ SO what I did I made it into a loop of 21 by using for loop on interval of 21 bc
 now it showed the whole data
 Now the next task was to get altitide from the pressure data 
 I learnt basic division and subtraction in excel and directly applied division by 12.3 in excel and subtracted initial altitude from all
+While learning plotting data from excel,I found a better way to represent the data other than loop so I made both of them into different functions with a choice to choose any one using if else bcz I didnt want to change what I made using my own logic
+I found out that I was obtaining pressure vs Altitude data but Alti vs time vas required
+Now I had used pandas to plot the graph for velocity vs time as well
 
+Hello Bhaiya/Di,I tried to explain this part my best but god knows how clear it is to you:
 
+Now I had to deal with **** data so q=what I did I found difference between consecutive velocitires like if data is
+v    t
+4    1
+6    2
+8    3
 
+I found difference between 4 and 6 and then 6 and 8 like that and then divivded them by 1 ie time difference,it meant i got acceleration for each now I plotted data for acceleration and time wrt to the altitude vs time and it came out to be almost constant and the values themselves were moving with diff of 0.X so considering this I took the accleration of previous one of *** and the next one of *** which had in themselves diff of 0.3 only and took their avg,now I had accln and time,I got velocity from there and then altitude which came out to be 333.52m
+
+After that i came to know about linear interpolation,I aplied it using previous and next value of **** and got altitude of 322.3728m,the diff was of 11m between my method and linear interpolation although I feel that both were similar,anyhow I used the linear interpolation data for my work.
