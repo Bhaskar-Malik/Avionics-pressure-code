@@ -31,6 +31,11 @@ v    t
 6    2
 8    3
 
-I found difference between 4 and 6 and then 6 and 8 like that and then divivded them by 1 ie time difference,it meant i got acceleration for each now I plotted data for acceleration and time wrt to the altitude vs time and it came out to be almost constant and the values themselves were moving with diff of 0.X so considering this I took the accleration of previous one of *** and the next one of *** which had in themselves diff of 0.3 only and took their avg,now I had accln and time,I got velocity from there and then altitude which came out to be 333.52m
+I found difference between 4 and 6 and then 6 and 8 like that and then divivded them by 1 ie time difference,
+it meant i got acceleration for each now I plotted data for acceleration and time wrt to the altitude vs time and
+it came out to be almost constant and the values themselves were moving with diff of 0.X so considering this
+I took the accleration of previous one of *** and the next one of *** which had in themselves diff of 0.3
+only and took their avg,now I had accln and time,I got velocity from there and then altitude which came out to 
+be 333.52m
 
-After that i came to know about linear interpolation,I aplied it using previous and next value of **** and got altitude of 322.3728m,the diff was of 11m between my method and linear interpolation although I feel that both were similar,anyhow I used the linear interpolation data for my work.
+After that i came to know about linear interpolation,I applied it using previous and next value of **** and got altitude of 322.3728m,the diff was of 11m between my method and linear interpolation and that for velocity was only 0.2 m/s although I feel that both methods were similar,I used the linear interpolation data for my work.
