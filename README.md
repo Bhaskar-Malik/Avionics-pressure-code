@@ -39,3 +39,10 @@ only and took their avg,now I had accln and time,I got velocity from there and t
 be 333.52m
 
 After that i came to know about linear interpolation,I applied it using previous and next value of **** and got altitude of 322.3728m,the diff was of 11m between my method and linear interpolation and that for velocity was only 0.2 m/s although I feel that both methods were similar,I used the linear interpolation data for my work.
+
+It was time to make animation for graphs but that absolutely maddend me I trued every way for 2 days but the graph showed blank every time,I even tries usong chatgpt for this after frustration but sma eproblem
+I moved on now,
+To make thigs clear I made everything into a function and ch,ch2 as choices,ch for data output both the ways and ch2 for graph V vs T A vs T and both,then I saw that in both cateory the y axis was labeled as alti so I amde two functions without labels and put them together in the choice.
+I saw that the code looked really neat and i like it:}
+
+
