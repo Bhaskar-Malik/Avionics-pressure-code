@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from itertools import count
 #I was running the code in interactive window  :( and it wasnt working
-plt.style.use('fivethirtyeight')
+plt.style.use('fivethirtyeight')#Added style
 index=count()
-alti=[]
-data_alti=[
+alti=[]#Empty list in which data will be appended
+data_alti=[#I didnt put these commas one by one,just used excel for it 
 0,
 0,
 0.0976003252035298,
@@ -123,27 +123,28 @@ data_vel=[0,
 0.742469488966338,
 0.383557244330357,
 ]
-vel=[]
+vel=[]#The similar velocity empty list
 time=[]
-def anialt(i):
+def anialt(i):#Animate Altitude vs Time
    
-      time.append(i)
-      alti.append(data_alti[i])
-      plt.cla()
+      time.append(i)#Used the data frame as my seconds :)
+      alti.append(data_alti[i])#Also usd the data frame as i of the data
+      plt.cla()#Clears the previous line
       plt.plot(time,alti)
-def anivel(i):
+def anivel(i):#Animate Velocity vs Time
       time.append(i)
       vel.append(data_vel[i])
       plt.cla()
       plt.plot(time,vel,color='orange')
-def aniboth(i):
+def aniboth(i):#This is for both statements
       time.append(i)
       vel.append(data_vel[i])
       alti.append(data_alti[i])
       plt.cla()
       plt.plot(time,vel,color='orange',label='Velocity vs Time')
       plt.plot(time,alti,color='blue',label='Altitude vs Time')
-      plt.legend()
+      plt.legend()#Adds a label on top right corner
+#Some if-else based statements
 print("Altitude vs Time(Press 1)")
 print("Velocity vs Time(Press 2)")
 print("Both(Press 3)")
