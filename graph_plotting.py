@@ -2,11 +2,11 @@ import matplotlib.pyplot as plt
 import pandas as pd
 df=pd.read_excel("C:\\Users\\hp\\Desktop\\RFD_LI.xlsx",'Sheet1')
         
-def plot_Altitude():    
+def plot_Altitude():    #Altitude VS Time
        plt.xlabel("Time(s)")
        plt.ylabel("Altitude(m)")    
        plt.plot(df['Time(s)'],df['Altitude(m)'])
-def plot_Velocity():
+def plot_Velocity():    #Velocity VS Time
        plt.xlabel("Time(s)")
        plt.ylabel("Velocity(m/s)")
        plt.plot(df['Time(s)'],df['Velocity(m/s)'])
@@ -15,7 +15,7 @@ def plot_Velfake():                                       #I made these two func
          plt.plot(df['Time(s)'],df['Velocity(m/s)'])       #when used  together
 def plot_Altfake():
         plt.plot(df['Time(s)'],df['Altitude(m)'])
-
+#some choice based if-else statemnts
 
 print("Altitude vs Time(Press 1)")
 print("Velocity vs Time(Press 2)")
